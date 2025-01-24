@@ -8,6 +8,7 @@ namespace Prolog
     public partial class PrologEngine
     {
         #region engine-mail
+
         static bool SendMail(string smtpHost, int port, string toAddr, string subject, string body)
         {
             try
@@ -37,8 +38,8 @@ namespace Prolog
                 return false;
             }
         }
-
-
+        
+        /*
         class AcceptAllCertificatePolicy : ICertificatePolicy
         {
             public AcceptAllCertificatePolicy()
@@ -52,6 +53,8 @@ namespace Prolog
                 return true;
             }
         }
+        */
+
         #endregion engine-mail
     }
 }

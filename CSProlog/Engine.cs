@@ -686,6 +686,7 @@ namespace Prolog
         {
             try
             {
+                error = false;
                 solution.ResetMessage();
                 solution.Solved = true;
                 varStack.Clear();
