@@ -1,6 +1,4 @@
-# CSharpProlog [![NuGet Package](https://img.shields.io/nuget/v/CSProlog.svg)](https://www.nuget.org/packages/CSProlog/) [![Build status](https://ci.appveyor.com/api/projects/status/prufu2gwyb63l3ua?svg=true)](https://ci.appveyor.com/project/jsakamoto/csharpprolog)
-A C# implementation of Prolog
-### Fork changes
+# Fork changes
 
 Fork of the the CSharpProlog from https://github.com/jsakamoto/CSharpProlog/
 With the following changes:
@@ -8,6 +6,8 @@ With the following changes:
 - Remove netframework projects
 - Fix to make the engine reusable after an error
 
+# CSharpProlog [![NuGet Package](https://img.shields.io/nuget/v/CSProlog.svg)](https://www.nuget.org/packages/CSProlog/) [![Build status](https://ci.appveyor.com/api/projects/status/prufu2gwyb63l3ua?svg=true)](https://ci.appveyor.com/project/jsakamoto/csharpprolog)
+A C# implementation of Prolog (Fork)
 
 ```csharp
 // PM> Install-Package CSProlog -pre
