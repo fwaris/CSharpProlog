@@ -1,6 +1,7 @@
 # Fork changes
 
 Fork of the the CSharpProlog from https://github.com/jsakamoto/CSharpProlog/
+
 With the following changes:
 - Update to .Net 9 and netstandard2.1
 - Remove netframework projects
